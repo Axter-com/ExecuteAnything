@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="49000" Ctrl="yes" Alt="no" Shift="yes" Key="116" />
+    </InternalCommands>
+    <Macros>
+    </Macros>
+    <UserDefinedCommands>
+    </UserDefinedCommands>
+    <PluginCommands>
+        <PluginCommand moduleName="ExecuteAnything.dll" internalID="0" Ctrl="no" Alt="no" Shift="no" Key="116" />
+        <PluginCommand moduleName="ExecuteAnything.dll" internalID="0" Ctrl="no" Alt="no" Shift="no" Key="121" />
+    </PluginCommands>
+    <ScintillaKeys />
+</NotepadPlus>

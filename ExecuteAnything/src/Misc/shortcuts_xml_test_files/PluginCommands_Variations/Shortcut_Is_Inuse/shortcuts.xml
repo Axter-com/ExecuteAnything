@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="49000" Ctrl="no" Alt="no" Shift="no" Key="116" />
+    </InternalCommands>
+    <Macros>
+        <Macro name="Trim Trailing Space and Save" Ctrl="no" Alt="no" Shift="no" Key="116">
+            <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="Wikipedia Search" Ctrl="no" Alt="no" Shift="no" Key="116">https://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
+    </UserDefinedCommands>
+    <PluginCommands>
+        <PluginCommand moduleName="foofoo.dll" internalID="0" Ctrl="no" Alt="no" Shift="no" Key="116" />
+    </PluginCommands>
+    <ScintillaKeys>
+        <ScintKey ScintID="2004" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="116" />
+    </ScintillaKeys>
+</NotepadPlus>
+
+<!--
+	For any item using target shortcut key, set the key value to zero. IE Key="0"
+	<ScintKey ScintID="2004" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+																			  -
+ -->

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\CommonFunction.cpp" />
+    <ClCompile Include="src\NppExecPluginMsgSender.cpp" />
+    <ClCompile Include="src\ExecuteAnything.cpp" />
+    <ClCompile Include="src\ExecuteAnything_Menu.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\findfiles.cpp" />
+    <ClCompile Include="src\ProcessPrgLanguageAction.cpp" />
+    <ClCompile Include="src\SendKeys.cpp" />
+    <ClCompile Include="src\TestAutomationcpp.cpp" />
+    <ClCompile Include="src\core\NppMessager.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\NppPlugin.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\SciMessager.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\NppPluginMenu.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqlite3.c">
+      <Filter>SQL\SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqlite3pp.cpp">
+      <Filter>SQL\SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqlite3pp_ez.cpp">
+      <Filter>SQL\SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\NppPluginMsgSender.cpp" />
+    <ClCompile Include="src\NppToIDE.cpp" />
+    <ClCompile Include="src\PrgLanguagesHelp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CommonFunctions.h" />
+    <ClInclude Include="src\ExecuteAnything.h" />
+    <ClInclude Include="src\ExecuteAnything_Menu.h" />
+    <ClInclude Include="src\NppExecPluginMsgSender.h" />
+    <ClInclude Include="src\nppexec_msgs.h" />
+    <ClInclude Include="src\findfiles.h" />
+    <ClInclude Include="src\ProcessPrgLanguageAction.h" />
+    <ClInclude Include="src\SendKeys.h" />
+    <ClInclude Include="src\ProcessPrgLanguageAction.hpp" />
+    <ClInclude Include="src\TestAutomation.h" />
+    <ClInclude Include="src\ClipboardXX.hpp" />
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Settings.h" />
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Variables.h" />
+    <ClInclude Include="src\SQL\sql_table_FileExt.h" />
+    <ClInclude Include="src\SQL\sql_table_InstallationPaths.h" />
+    <ClInclude Include="src\SQL\sql_table_LangInstallationUsage.h" />
+    <ClInclude Include="src\SQL\sql_table_MiscData.h" />
+    <ClInclude Include="src\SQL\sql_table_Prerequisites.h" />
+    <ClInclude Include="src\SQL\sql_table_PrgLang.h" />
+    <ClInclude Include="src\SQL\sql_table_PrgLangAlias.h" />
+    <ClInclude Include="src\SQL\sql_table_ProgrammingLanguageProfiles.h" />
+    <ClInclude Include="src\SQL\sql_table_SrcCode.h" />
+    <ClInclude Include="src\SQL\sql_table_SrcCodeType.h" />
+    <ClInclude Include="src\SQL\sql_table_TestAutomationSrcCode.h" />
+    <ClInclude Include="src\SQL\sql_view_v_ProgrammingLanguageProfiles.h" />
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Settings.h" />
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Variables.h" />
+    <ClInclude Include="src\SQL\sql_table_FileExt.h" />
+    <ClInclude Include="src\SQL\sql_table_InstallationPaths.h" />
+    <ClInclude Include="src\SQL\sql_table_LangInstallationUsage.h" />
+    <ClInclude Include="src\SQL\sql_table_MiscData.h" />
+    <ClInclude Include="src\SQL\sql_table_Prerequisites.h" />
+    <ClInclude Include="src\SQL\sql_table_PrgLang.h" />
+    <ClInclude Include="src\SQL\sql_table_PrgLangAlias.h" />
+    <ClInclude Include="src\SQL\sql_table_ProgrammingLanguageProfiles.h" />
+    <ClInclude Include="src\SQL\sql_table_SrcCode.h" />
+    <ClInclude Include="src\SQL\sql_table_SrcCodeType.h" />
+    <ClInclude Include="src\SQL\sql_table_TestAutomationSrcCode.h" />
+    <ClInclude Include="src\SQL\sql_view_v_ProgrammingLanguageProfiles.h" />
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Settings.h" />
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Variables.h" />
+    <ClInclude Include="src\SQL\sql_table_FileExt.h" />
+    <ClInclude Include="src\SQL\sql_table_InstallationPaths.h" />
+    <ClInclude Include="src\SQL\sql_table_LangInstallationUsage.h" />
+    <ClInclude Include="src\SQL\sql_table_MiscData.h" />
+    <ClInclude Include="src\SQL\sql_table_Prerequisites.h" />
+    <ClInclude Include="src\SQL\sql_table_PrgLang.h" />
+    <ClInclude Include="src\SQL\sql_table_PrgLangAlias.h" />
+    <ClInclude Include="src\SQL\sql_table_ProgrammingLanguageProfiles.h" />
+    <ClInclude Include="src\SQL\sql_table_SrcCode.h" />
+    <ClInclude Include="src\SQL\sql_table_SrcCodeType.h" />
+    <ClInclude Include="src\SQL\sql_table_TestAutomationSrcCode.h" />
+    <ClInclude Include="src\SQL\sql_view_v_ProgrammingLanguageProfiles.h" />
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Settings.h" />
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Variables.h" />
+    <ClInclude Include="src\SQL\sql_table_FileExt.h" />
+    <ClInclude Include="src\SQL\sql_table_InstallationPaths.h" />
+    <ClInclude Include="src\SQL\sql_table_LangInstallationUsage.h" />
+    <ClInclude Include="src\SQL\sql_table_MiscData.h" />
+    <ClInclude Include="src\SQL\sql_table_Prerequisites.h" />
+    <ClInclude Include="src\SQL\sql_table_PrgLang.h" />
+    <ClInclude Include="src\SQL\sql_table_PrgLangAlias.h" />
+    <ClInclude Include="src\SQL\sql_table_ProgrammingLanguageProfiles.h" />
+    <ClInclude Include="src\SQL\sql_table_SrcCode.h" />
+    <ClInclude Include="src\SQL\sql_table_SrcCodeType.h" />
+    <ClInclude Include="src\SQL\sql_table_TestAutomationSrcCode.h" />
+    <ClInclude Include="src\SQL\sql_table_TestAutomationTestType.h" />
+    <ClInclude Include="src\SQL\sql_view_v_ProgrammingLanguageProfiles.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\core\NppMessager.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\NppPlugin.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\NppPluginMsgSender.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\SciMessager.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\NppPluginMenu.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sqlite3.h">
+      <Filter>SQL\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sqlite3pp.h">
+      <Filter>SQL\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sqlite3pp_ez.h">
+      <Filter>SQL\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\base.h" />
+    <ClInclude Include="src\core\npp_files\menuCmdID.h">
+      <Filter>core\npp_files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\npp_files\Notepad_plus_msgs.h">
+      <Filter>core\npp_files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\npp_files\PluginInterface.h">
+      <Filter>core\npp_files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\npp_files\Sci_Position.h">
+      <Filter>core\npp_files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\npp_files\Scintilla.h">
+      <Filter>core\npp_files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_Master_Header.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Settings.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Variables.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_FileExt.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_InstallationPaths.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_LangInstallationUsage.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_MiscData.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_Prerequisites.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_PrgLang.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_PrgLangAlias.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_ProgrammingLanguageProfiles.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_SrcCode.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_SrcCodeType.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_table_TestAutomationSrcCode.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SQL\sql_view_v_ProgrammingLanguageProfiles.h">
+      <Filter>SQL\Tables And Views Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NppToIDE.h" />
+    <ClInclude Include="src\PrgLanguagesHelp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SQL">
+      <UniqueIdentifier>{63c05ba0-4361-428c-9f84-d1cf21ab4f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQL\Schema">
+      <UniqueIdentifier>{20555fde-25e2-4f6a-b4ca-0d2afa144db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{175c9c3c-4031-473c-8d16-3b062854e189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Notepad++XmlFiles">
+      <UniqueIdentifier>{fbe6238c-23c2-45d2-9aa4-3c84e40ba55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Help">
+      <UniqueIdentifier>{c22e5a8d-580f-4f44-884c-34fcafdfa0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQL\Tables And Views Headers">
+      <UniqueIdentifier>{5630849b-8523-428a-8e24-e5329156336e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{63d729c7-310e-459d-a017-514d32b591c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{1a811506-4344-43e8-9230-bf4967600804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\npp_files">
+      <UniqueIdentifier>{d98aed61-eb57-4347-94de-867e7c7d3292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQL\SQLite">
+      <UniqueIdentifier>{2b2a25fe-4a39-4e9d-9a76-b11956e3c6cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\contextMenu.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\functionList.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\langs.model.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\langs.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\session.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\shortcuts - Copy.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\shortcuts.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\stylers.model.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\stylers.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\userDefineLang.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\contextMenu.xml">
+      <Filter>Misc\Notepad++XmlFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\..\AppData\Roaming\Notepad++\config.xml">
+      <Filter>Misc\Notepad++XmlFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\..\AppData\Roaming\Notepad++\contextMenu.xml">
+      <Filter>Misc\Notepad++XmlFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\..\AppData\Roaming\Notepad++\functionList.xml">
+      <Filter>Misc\Notepad++XmlFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\..\AppData\Roaming\Notepad++\langs.model.xml">
+      <Filter>Misc\Notepad++XmlFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\..\AppData\Roaming\Notepad++\langs.xml">
+      <Filter>Misc\Notepad++XmlFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\..\AppData\Roaming\Notepad++\session.xml">
+      <Filter>Misc\Notepad++XmlFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\..\AppData\Roaming\Notepad++\shortcuts.xml">
+      <Filter>Misc\Notepad++XmlFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\..\AppData\Roaming\Notepad++\stylers.model.xml">
+      <Filter>Misc\Notepad++XmlFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\..\AppData\Roaming\Notepad++\stylers.xml">
+      <Filter>Misc\Notepad++XmlFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\..\AppData\Roaming\Notepad++\userDefineLang.xml">
+      <Filter>Misc\Notepad++XmlFiles</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ExecuteAnything.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\AppData\Roaming\Notepad++\plugins\NppExec\doc\NppExec\NppExec_HelpAll.ANSI.txt">
+      <Filter>Misc\Help</Filter>
+    </Text>
+    <Text Include="..\..\..\..\..\AppData\Roaming\Notepad++\plugins\NppExec\doc\NppExec\NppExec_HelpAll.txt">
+      <Filter>Misc\Help</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\SQL\Schema\ExecuteAnything_DB_Current_Schema.tables.SQL">
+      <Filter>SQL\Schema</Filter>
+    </None>
+    <None Include="src\SQL\Schema\ExecuteAnything_DB_Current_Schema.views.SQL">
+      <Filter>SQL\Schema</Filter>
+    </None>
+    <None Include="..\..\..\..\..\AppData\Roaming\Notepad++\plugins\Config\nppPluginList.json">
+      <Filter>Misc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
