@@ -1,0 +1,2 @@
+# ExecuteAnything
+ExecuteAnything is A Notepad++ plugin that can execute source code for any programming language. By pressing the execution key (F5), ExecuteAnything automatically determines if the source code needs to be compiled first, or if it can be immediately executed via runtime interpreter. It takes the appropriate action based on the file extension. If required, the source file is compiled/built before executed.
