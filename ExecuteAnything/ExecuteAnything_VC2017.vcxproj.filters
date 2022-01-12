@@ -22,9 +22,6 @@
     <ClCompile Include="src\core\NppPluginMenu.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="src\sqlite3.c">
-      <Filter>SQL\SQLite</Filter>
-    </ClCompile>
     <ClCompile Include="src\sqlite3pp.cpp">
       <Filter>SQL\SQLite</Filter>
     </ClCompile>
@@ -34,6 +31,9 @@
     <ClCompile Include="src\core\NppPluginMsgSender.cpp" />
     <ClCompile Include="src\NppToIDE.cpp" />
     <ClCompile Include="src\PrgLanguagesHelp.cpp" />
+    <ClCompile Include="..\..\..\sqlite3pp\sqlite3.c">
+      <Filter>SQL\SQLite</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\CommonFunctions.h" />
@@ -102,9 +102,27 @@
     <ClInclude Include="src\SQL\sql_table_SrcCode.h" />
     <ClInclude Include="src\SQL\sql_table_SrcCodeType.h" />
     <ClInclude Include="src\SQL\sql_table_TestAutomationSrcCode.h" />
-    <ClInclude Include="src\SQL\sql_table_TestAutomationTestType.h" />
     <ClInclude Include="src\SQL\sql_view_v_ProgrammingLanguageProfiles.h" />
-    <ClInclude Include="src\SQL\sql_*.h" />
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Settings.h" />
+    <ClInclude Include="src\SQL\sql_table_AdvProfile_Variables.h" />
+    <ClInclude Include="src\SQL\sql_table_FileExt.h" />
+    <ClInclude Include="src\SQL\sql_table_InstallationPaths.h" />
+    <ClInclude Include="src\SQL\sql_table_KeyWords.h" />
+    <ClInclude Include="src\SQL\sql_table_LangInstallationUsage.h" />
+    <ClInclude Include="src\SQL\sql_table_MiscData.h" />
+    <ClInclude Include="src\SQL\sql_table_Prerequisites.h" />
+    <ClInclude Include="src\SQL\sql_table_PrgLang.h" />
+    <ClInclude Include="src\SQL\sql_table_PrgLangAlias.h" />
+    <ClInclude Include="src\SQL\sql_table_PrgLangTraits.h" />
+    <ClInclude Include="src\SQL\sql_table_ProgrammingLanguageProfiles.h" />
+    <ClInclude Include="src\SQL\sql_table_sqlite_sequence.h" />
+    <ClInclude Include="src\SQL\sql_table_SrcCode.h" />
+    <ClInclude Include="src\SQL\sql_table_SrcCodeType.h" />
+    <ClInclude Include="src\SQL\sql_table_TestAllTypes.h" />
+    <ClInclude Include="src\SQL\sql_table_TestAutomationSrcCode.h" />
+    <ClInclude Include="src\SQL\sql_table_TestAutomationTestType.h" />
+    <ClInclude Include="src\SQL\sql_view_v_LastPrgLangTraitsID.h" />
+    <ClInclude Include="src\SQL\sql_view_v_ProgrammingLanguageProfiles.h" />
     <ClInclude Include="src\SQL\sql_*.h" />
     <ClInclude Include="src\SQL\sql_*.h" />
     <ClInclude Include="src\SQL\sql_*.h" />
@@ -261,11 +279,11 @@
     <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\langs.xml" />
     <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\session.xml" />
     <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\shortcuts - Copy.xml" />
+    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\shortcuts.fails to work -- deleteme after troubleshooting.xml" />
     <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\shortcuts.xml" />
     <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\stylers.model.xml" />
     <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\stylers.xml" />
     <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\userDefineLang.xml" />
-    <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
     <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
     <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />
     <Xml Include="..\..\..\..\..\..[--Roaming--]\Notepad++\*.xml" />

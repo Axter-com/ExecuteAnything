@@ -239,7 +239,8 @@ void SendKeys::SendKeyDown(BYTE VKey, WORD NumTimes, bool GenUpMsg, bool bDelay)
 
   if (VKey == VK_NUMLOCK)
   {
-    DWORD dwVersion = ::GetVersion();
+#pragma warning(disable : 4996)
+	DWORD dwVersion = ::GetVersion();
 
     for (Cnt=1; Cnt<=NumTimes; Cnt++)
     {
@@ -467,7 +468,8 @@ bool SendKeys::SendString(LPCTSTR KeysString, bool Wait)
         if (t > sizeof(KeyString))
           return false;
 
-        // Take this KeyString into local buffer
+#pragma warning(disable : 4996)
+		// Take this KeyString into local buffer
         _tcsncpy(KeyString, pKey+1, t);
 
         KeyString[t-1] = _TXCHAR('\0');
@@ -642,7 +644,8 @@ bool SendKeys::AppActivate(LPCTSTR WindowTitle, LPCTSTR WindowClass)
 
     memset(titleclass, '\0', l1+l2+5);
 
-    if (WindowTitle)
+#pragma warning(disable : 4996)
+	if (WindowTitle)
       _tcscpy(titleclass, WindowTitle);
 
     titleclass[l1] = 0;
